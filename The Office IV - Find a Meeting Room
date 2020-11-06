@@ -1,0 +1,10 @@
+//https://www.codewars.com/kata/57f604a21bd4fe771b00009c
+
+function meeting(arr){
+let x = arr.indexOf('O')
+  if(x === -1 ){
+    return 'None available!'
+  }else{
+    return x
+  }
+}
