@@ -1,0 +1,11 @@
+// https://www.codewars.com/kata/5f6d533e1475f30001e47514
+
+function consecutive(arr, a, b){  
+let inda =  arr.indexOf(a) 
+let indb =  arr.indexOf(b) 
+ if(inda - 1 === indb || indb - 1 === inda ){
+ return true 
+ }else{
+  return false 
+  }
+}
